@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AlgoPlayground</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>AlgoPlayground</h1>
+    <p class="subtitle">Visualize classic sorting algorithms</p>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <label>
+        Algorithm
+        <select id="algoSelect">
+          <option value="bubble">Bubble Sort</option>
+          <option value="insertion">Insertion Sort</option>
+          <option value="selection">Selection Sort</option>
+          <option value="merge">Merge Sort</option>
+          <option value="quick">Quick Sort</option>
+          <option value="heap">Heap Sort</option>
+          <option value="counting">Counting Sort</option>
+          <option value="radix">Radix Sort</option>
+        </select>
+      </label>
+
+      <label>
+        Size
+        <input type="range" id="sizeSlider" min="5" max="60" value="30" />
+      </label>
+
+      <label>
+        Speed
+        <input type="range" id="speedSlider" min="20" max="500" value="120" />
+      </label>
+
+      <button id="generateBtn">New Data</button>
+      <button id="runBtn" class="primary">Run</button>
+    </section>
+
+    <section class="visualizer" id="barContainer">
+      <!-- bars get injected here -->
+    </section>
+
+    <section class="info" id="infoPanel">
+      <h2 id="algoTitle">Bubble Sort</h2>
+      <p id="algoDesc">
+        Repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Built for SWE fundamentals: DOM, algorithms, state, async.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
