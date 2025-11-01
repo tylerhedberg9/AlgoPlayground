@@ -1,18 +1,26 @@
 # 🧠 AlgoPlayground
 
 **Interactive Sorting Algorithm Visualizer**  
-A lightweight web app that visualizes **Bubble Sort**, **Insertion Sort**, and **Merge Sort** in real time — built to showcase fundamental software engineering skills using **vanilla JavaScript**, **HTML**, and **CSS**.
+A lightweight web app that visualizes classic sorting algorithms in real time — built to showcase fundamental software engineering skills using **vanilla JavaScript**, **HTML**, and **CSS**.
 
 ---
 
 ## 🚀 Features
 
-- 🎨 Real-time visualization of sorting algorithms  
+- 🎨 Real-time visualization of multiple sorting algorithms  
 - 🧩 Adjustable array size and animation speed  
-- 🔁 Three algorithms: Bubble, Insertion, and Merge Sort  
+- 🔁 Eight algorithms implemented:  
+  - Bubble Sort  
+  - Insertion Sort  
+  - Selection Sort  
+  - Merge Sort  
+  - Quick Sort  
+  - Heap Sort  
+  - Counting Sort  
+  - Radix Sort  
 - 💡 Highlights active comparisons for better understanding  
 - ⚡ Built with no frameworks — just clean, modular code  
-- 📱 Responsive layout that works on desktop or mobile
+- 📱 Responsive layout that works on desktop or mobile  
 
 ---
 
