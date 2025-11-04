@@ -1,15 +1,15 @@
-# 🧠 AlgoPlayground
+# AlgoPlayground
 
 **Interactive Sorting Algorithm Visualizer**  
 A lightweight web app that visualizes classic sorting algorithms in real time — built to showcase fundamental software engineering skills using **vanilla JavaScript**, **HTML**, and **CSS**.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🎨 Real-time visualization of multiple sorting algorithms  
-- 🧩 Adjustable array size and animation speed  
-- 🔁 Eight algorithms implemented:  
+- Real-time visualization of multiple sorting algorithms  
+- Adjustable array size and animation speed  
+- Eight algorithms implemented:  
   - Bubble Sort  
   - Insertion Sort  
   - Selection Sort  
@@ -18,13 +18,13 @@ A lightweight web app that visualizes classic sorting algorithms in real time �
   - Heap Sort  
   - Counting Sort  
   - Radix Sort  
-- 💡 Highlights active comparisons for better understanding  
-- ⚡ Built with no frameworks — just clean, modular code  
-- 📱 Responsive layout that works on desktop or mobile  
+- Highlights active comparisons for better understanding  
+- Built with no frameworks — just clean, modular code  
+- Responsive layout that works on desktop or mobile  
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-------------|
@@ -34,7 +34,7 @@ A lightweight web app that visualizes classic sorting algorithms in real time �
 
 ---
 
-## 📦 Installation & Usage
+## Installation & Usage
 
 ### 1. Clone this repository
 ```bash
